@@ -1,0 +1,588 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+header{
+background: url(../img/Rectangle\ 1.png) center/cover;
+max-width: 100%;
+height: 940px;
+}
+
+.logo{
+margin: 16px 0 15px 0;
+}
+
+.header_logo{
+display: flex;
+justify-content: space-between;
+}
+
+.header_logo_text{
+display: flex;
+justify-content: space-between;
+}
+
+.text1{
+font-family: 'Roboto', sans-serif;;
+font-weight: 700;
+font-size: 16px;
+color: #FFFFFF;
+margin: 36px 19px 34px 0;
+}
+
+.button{
+text-decoration: none;
+margin: 24px 0 23px 0;
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 16px;
+color: #FFFFFF;
+background: #886239 ;
+border-radius: 22px;
+border: #886239 solid;
+display: flex;
+align-items: center;
+}
+
+.number{
+width: 235px;
+height: 44px;
+padding-left: 36px;
+}
+
+.leave{
+width: 230px;
+height: 50px;
+padding: 20px 44px;
+}
+
+hr{
+color: white;
+}
+
+.nav{
+display: flex;
+justify-content: space-around;
+}
+
+li{
+color: white;
+}
+
+.header_text{
+font-family: 'PT Serif';
+font-weight: 700;
+font-size: 90px;
+color: #1F1E1E;
+}
+
+.header_text{
+margin-top: 49px;
+text-align: center;
+}
+
+.header_p{
+margin-top: 400px;
+width: 422px;
+height: 59px;
+font-family: 'Roboto', sans-serif;
+font-weight: 700;
+font-size: 20px;
+color: #1F1E1E;
+}
+
+.countries{
+width: 256px;
+height: 160px;
+border: 1px solid #D9D9DE;
+margin: 0 25px 29px 0;
+}
+
+.countries_p{
+width: 68px;
+height: 19px;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #1F1E1E;
+padding: 12px 0 19px 19px;
+font-family: 'Roboto', sans-serif;
+}
+
+.grid-box{
+margin: 100px 0 100px 0;
+display: grid;
+grid-template-columns: 25% 25% 25% 25%;
+}
+
+.main_title{
+font-family: 'Roboto' sans-serif;
+font-weight: 500;
+font-size: 36px;
+text-align: center;
+color: #FFFFFF;
+padding-top: 32px;
+padding-bottom: 52px;
+}
+
+.main_brunches{
+background: #886239;
+max-width: 100%;
+height: 582px; 
+}
+
+.main_brunches_color{
+background: url(../img/panorama-2105955_1920\ 1.png) center/cover;
+max-width: 100%;
+height: 582px;
+}
+
+.icons{
+width: 85px;
+height: 85px;
+border: 1px solid #FFFFFF;
+border-radius: 50%;
+margin-right: 200px;
+}
+
+.icons1{
+width: 85px;
+height: 85px;
+border: 1px solid #FFFFFF;
+border-radius: 50%;
+margin-right: 200px;
+}
+
+.icons_img{
+width: 45px;
+height: 45px;
+margin: 20px 20px auto ;
+}
+
+.icons_p{
+width: 232px;
+height: 65px;
+margin-top: 30px;
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 16px;
+color: #FFFFFF;
+}
+
+.main_icons{
+display: flex;
+}
+
+.main_icons1{
+display: flex;
+margin-top: 127px;
+}
+
+.popular{
+margin-top: 100px;
+margin-bottom: 40px;
+text-align: center;
+font-family: 'Roboto', sans-serif;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+color: #1F1E1E;
+}
+
+.wrapper{
+display: grid;
+grid-template-columns: repeat(4 1fr);
+grid-template-rows: repeat(4 1fr);
+grid-column-gap: 32px;
+grid-row-gap: 32px;
+}
+
+.wrapper_1{
+grid-column: 1 / 2;
+grid-row: 1 / 2;
+}
+
+.wrapper_2{
+grid-column: 2 / 3;
+grid-row: 1 / 2;
+}
+
+.wrapper_3{
+grid-column: 3 / 5;
+grid-row: 1 / 3;
+}
+
+.wrapper_4{
+grid-column: 1 / 2;
+grid-row: 2 / 3;
+}
+
+.wrapper_5{
+grid-column: 2 / 3;
+grid-row: 2 / 3;
+}
+
+.wrapper_6{
+grid-column: 1 / 3;
+grid-row: 3 / 5;
+}
+
+.wrapper_7{
+grid-column: 3 / 4;
+grid-row: 3 / 4;
+}
+
+.wrapper_8{
+grid-column: 4 / 5;
+grid-row: 3 / 4;
+}
+
+.wrapper_9{
+grid-column: 3 / 4;
+grid-row: 4 / 5;
+}
+
+.wrapper_10{
+grid-column: 4 / 5;
+grid-row: 4 / 5;
+}
+
+.wrapper p{
+position: absolute;
+font-family: 'Roboto', sans-serif;
+line-height: 130%;
+color: #FFFFFF;
+}
+
+.wrapper_name1{
+width: 218px;
+height: 41px;
+margin: 16px 0 0 17px;
+font-weight: 500;
+font-size: 18px;
+}
+
+.wrapper_price1{
+width: 121px;
+height: 18px;
+margin: 219px 0 19px 16px;
+font-weight: 700;
+font-size: 16px;
+}
+
+.wrapper_name11{
+width: 456px;
+height: 57px;
+margin: 16px 0 15px 33px;
+font-weight: 500;
+font-size: 18px;
+}
+
+.wrapper_city{
+margin: 88px 0 15px 33px;
+width: 483px;
+height: 43px;
+font-weight: 400;
+font-size: 16px;
+}
+
+.wrapper_date{
+margin: 124px 0 0 33px;
+width: 126px;
+height: 21px;
+font-weight: 400;
+font-size: 16px;
+}
+
+.wrapper_date1{
+margin: 152px 0 0 33px;
+width: 483px;
+height: 19px;
+font-weight: 400;
+font-size: 16px;
+}
+
+.wrapper_price11{
+width: 121px;
+height: 18px;
+margin: 504px 0 19px 25px;
+font-weight: 700;
+font-size: 16px;
+}
+
+.africa{
+margin-top: 82px;
+color: #797979;
+border: 1px solid #838383;
+}
+
+.map{
+max-width: 1120px;
+margin: auto;
+display: block;
+height: 600px;
+}
+
+.about{
+margin-top: 100px;
+margin-bottom: 100px;
+display: flex;
+justify-content: space-between;
+}
+
+.about_left_h1{
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 36px;
+line-height: 42px;
+color: #1F1E1E;
+margin-bottom: 25px;
+}
+
+.about_left_p{
+width: 448px;
+height: 255px;
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 18px;
+line-height: 140%;
+color: #1F1E1E;
+}
+
+.about_left_a{
+color: #C4C4C4;
+margin-top: 34px;
+}
+
+.about_right1{
+width: 640px;
+height: 400px;  
+}
+
+.about_right2{
+margin-top: 152px;
+margin-left: -350px; 
+position: absolute;
+}
+
+.photogallery{
+display: flex;
+justify-content: space-between;
+}
+
+.photogallery h1{
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 36px;
+line-height: 130%;
+color: #FFFFFF;
+margin: 49px 0 39px 0;
+}
+
+.gallery{
+margin-top: 55px;
+}
+
+.gallery a{
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+margin: 12px 55px 49px 0;
+}
+
+.main_brunches1{
+background: #886239;
+max-width: 100%;
+height: 785px; 
+}
+
+.box{
+display: grid;
+grid-template-columns: repeat(3 1fr);
+grid-template-rows: repeat(3 1fr);
+grid-column-gap: 32px;
+grid-row-gap: 32px;
+}
+
+.box2{
+grid-column: 2 /3;
+grid-row: 1 /2;
+}
+
+.box3{
+grid-column: 3 /4;
+grid-row: 1 /2;
+}
+
+.box4{
+grid-column: 1 /2;
+grid-row: 2 /3;
+}
+
+.box5{
+grid-column: 2 /3;
+grid-row: 2 /3;
+}
+
+.box6{
+grid-column: 3 /4;
+grid-row: 2 /3;
+}
+
+.safari_premium{
+display: flex;
+justify-content: space-between;
+}
+
+.safari_tour{
+width: 535px;
+height: 344px;
+}
+
+.safari_types{
+width: 541px;
+height: 365px;
+}
+
+.africa1{
+color: #797979;
+border: 1px solid #838383;
+}
+
+.account{
+display: flex;
+justify-content: space-between;
+}
+
+.account_info h6{
+height: 75px;
+font-family: 'PT Serif', serif;
+font-weight: 700;
+font-size: 58px;
+line-height: 130%;
+color: #886239;
+margin-left: 18px;
+}
+
+.account_info p{
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+height: 52px;
+margin-right: 60px;
+font-size: 20px;
+line-height: 130%;
+text-align: center;
+color: #1F1E1E;
+}
+
+.rent{
+max-width: 100%;
+height: 552px;
+background: #EAEAEA;
+}
+
+.inputs{
+max-width: 832px;
+display: flex;
+margin: auto;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+.holder{
+width: 256px;
+height: 44px;
+background: #FFFFFF;
+border: 1px solid #D9D9DE;
+padding: 11px 0 12px 14px;
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 130%;
+margin-top: 42px;
+}
+
+.comments{
+width: 832px;
+height: 112px;
+background: #FFFFFF;
+border: 1px solid #D9D9DE;
+padding: 14px 0 77px 14px;
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 130%; 
+margin-top: 42px; 
+margin-bottom: 67px;
+}
+
+.check{
+margin-top: 39px;
+display: flex;
+}
+
+.check input{
+width: 26px;
+height: 26px;
+border: 2px solid #C4C4C4;
+border-radius: 2px;
+margin-right: 19px;
+}
+
+.check h6{
+width: 353px;
+height: 23px;
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 130%;
+text-decoration-line: underline;
+color: #1F1E1E;
+margin-top: 8px;
+}
+
+footer{
+background: #000;
+max-width: 100%;
+height: 351px;
+}
+
+.footer_end{
+width: 832px;
+margin: auto;
+}
+
+.logo_end img{
+margin: 77px 274px 69px 274px;
+}
+
+.footer_text{
+display: flex;
+justify-content: space-between;
+margin-bottom: 81px;
+}
+
+.the_end h5{
+width: 225px;
+height: 18px;
+font-weight: 500;
+font-family: 'Roboto', sans-serif;
+font-size: 14px;
+line-height: 130%;
+color: #FFFFFF;
+}
+
+.the_end h6{
+width: 218px;
+height: 18px;
+font-weight: 400;
+opacity: 0.8;
+font-family: 'Roboto', sans-serif;
+font-size: 14px;
+line-height: 130%;
+color: #FFFFFF;
+}
